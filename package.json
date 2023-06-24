@@ -1,0 +1,16 @@
+{
+  "name": "apiweather",
+  "version": "1.0.0",
+  "description": "Шаблон цього проекту створений для студентів курсу Web Middle задля виконання завдань по Maker Time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "lykony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

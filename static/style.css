@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.weather h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.weather p {
+  margin-bottom: 5px;
+}
+
+.weather .toggle-btn {
+  background-color: #ebebe0;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather .toggle-btn:hover {
+  background-color: #dcdcd0;
+}
+
+.weather .hourly-forecast {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.weather .hourly-forecast .hourly-weather {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather .hourly-forecast .hourly-weather h4 {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.weather .hourly-forecast .hourly-weather img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+#content {
+  margin-top: 20px; /* Встановіть бажаний відступ зверху */
+}
+
+.widget .weather-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-top: 10px;
+  justify-content: center; /* Центрування по горизонталі */
+  align-items: center; /* Центрування по вертикалі */
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .weather {
+    display: flex;
+    align-items: center;
+  }
+
+  .weather h3 {
+    flex: 1;
+    text-align: left;
+  }
+
+  .weather img {
+    margin-left: 20px;
+  }
+
+  .weather p {
+    flex: 1;
+  }
+}
+
+#dropdown{
+  margin-right: 7px;
+}
+
+#searchInput{
+  margin-right: 7px;
+}
